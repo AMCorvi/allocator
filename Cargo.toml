@@ -1,7 +1,7 @@
 [package]
 name = "mpc_allocator_rust"
 version = "0.1.0"
-authors = ["Sebastien Valat <sebastien.valat@gmail.com>"]
+authors = ["AMCorvi <am@corvi.com>"]
 panic = "abort"
 
 [lib]
