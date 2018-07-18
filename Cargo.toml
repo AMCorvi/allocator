@@ -9,6 +9,8 @@ name = "hpc_allocator_rust"
 crate-type = ["staticlib", "cdylib"]
 
 [dependencies]
+<<<<<<< HEAD
+<<<<<<< HEAD
 libc = {version = "0.2", default-features = false}
 
 [profile.release]
@@ -22,3 +24,9 @@ opt-level = 3
 debug = false
 lto = true
 debug-assertions = false
+=======
+libc = {version = "0.2", default-features = false}
+>>>>>>> d43d130... First commit
+=======
+libc = {version = "0.2", default-features = false}
+>>>>>>> d43d130... First commit

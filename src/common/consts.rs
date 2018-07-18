@@ -6,6 +6,8 @@
              LICENSE  : CeCILL-C
 *****************************************************/
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 /// This module define all the basic constants to be used by
 /// the allocator
 
@@ -64,3 +66,18 @@ pub const MMSRC_KEEP_RESIDUT: bool = false;
 
 ///Magick number used by padded chunks.
 pub const PADDED_CHUNK_MAGICK: u8 = 0x42;
+=======
+=======
+>>>>>>> d43d130... First commit
+///This module define all the basic constants to be used by
+///the allocator
+
+use core::mem;
+use common::types;
+
+///Define basic alignement
+pub const BASIC_ALIGN: types::Size = mem::size_of::<usize>();
+<<<<<<< HEAD
+>>>>>>> d43d130... First commit
+=======
+>>>>>>> d43d130... First commit

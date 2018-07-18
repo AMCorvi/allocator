@@ -1,10 +1,16 @@
 # HPC Allocator Rust
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 [![Build Status](https://travis-ci.org/svalat/hpc_allocator_rust.svg?branch=master)](https://travis-ci.org/svalat/hpc_allocator_rust)
 [![Coverage Status](https://coveralls.io/repos/github/svalat/hpc_allocator_rust/badge.svg?branch=master)](https://coveralls.io/github/svalat/hpc_allocator_rust?branch=master)
 
 It is a small project to try to push rust in his limit and better understant the low level aspects of the language.
 
+=======
+>>>>>>> d43d130... First commit
+=======
+>>>>>>> d43d130... First commit
 This is a reimplemenation of the C version of MPC\_Allocator embeded into the MPC framework (http://mpc.hpcframework.paratools.com/).
 This memory allocator provides :
 
@@ -26,6 +32,8 @@ looking into `mpcframework/MPC_Allocator`. It can be built outside of MPC.
 This version contain most of the features from the C version (and more), it is not yet tunned but it 
 is easier to read than the C version if you want to understand how it works.
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 ## Build
 
 This project currently rely on nightly version of rust to use the no_std feature and a couple of others.
@@ -43,6 +51,10 @@ cargo +nigthly build
 cargo +nigthly test
 ```
 
+=======
+>>>>>>> d43d130... First commit
+=======
+>>>>>>> d43d130... First commit
 ## Detailed research documentation
 
 If you want more details about the research work behind this allocator you can read my PhD. :

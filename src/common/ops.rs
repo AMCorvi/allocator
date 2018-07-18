@@ -9,15 +9,31 @@
 ///This module implement basic operations which might be used
 ///everywhere in the code.
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 use common::types::Size;
 
 /// Ceil the given size to the closer alignement. Alignement should be a power of 2.
+=======
+use common::types::{Size};
+
+>>>>>>> d43d130... First commit
+=======
+use common::types::{Size};
+
+>>>>>>> d43d130... First commit
 #[inline]
 pub fn ceil_to_power_of_2(size:Size,align:Size) -> Size {
 	size & !(align-1)
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 /// Round up the given size to the closer alignement. Alignement should be a power of 2.
+=======
+>>>>>>> d43d130... First commit
+=======
+>>>>>>> d43d130... First commit
 #[inline]
 pub fn up_to_power_of_2(size:Size,align:Size) -> Size {
 	let ret;
@@ -31,6 +47,8 @@ pub fn up_to_power_of_2(size:Size,align:Size) -> Size {
 	ret
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 /// Helper function to be used by some functions, it convert an optional reference to pointer.
 /// If Option is None, then the pointer is set to NULL.
 #[inline]
@@ -48,12 +66,18 @@ pub fn ref_from_option_ptr<'a,T>(value:Option<* mut T>) -> &'a mut T {
 	unsafe{&mut *value.unwrap()}
 }
 
+=======
+>>>>>>> d43d130... First commit
+=======
+>>>>>>> d43d130... First commit
 #[cfg(test)]
 mod tests
 {
 	use common::ops;
 
 	#[test]
+<<<<<<< HEAD
+<<<<<<< HEAD
 	fn ptr_from_option_ref() {
 		let mut a = 1;
 		
@@ -67,6 +91,10 @@ mod tests
 	}
 
 	#[test]
+=======
+>>>>>>> d43d130... First commit
+=======
+>>>>>>> d43d130... First commit
 	fn ceil_to_power_of_2() {
 		assert_eq!(ops::ceil_to_power_of_2(0,1),0);
 		assert_eq!(ops::ceil_to_power_of_2(9,1),9);
